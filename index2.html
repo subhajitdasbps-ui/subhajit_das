@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display" id="display">0</div>
+        <button class="number" onclick="appendNumber(1)">1</button>
+        <button class="number" onclick="appendNumber(2)">2</button>
+        <!-- Add more number buttons -->
+        <button class="operator" onclick="performOperation('+')">+</button>
+        <button class="operator" onclick="performOperation('-')">-</button>
+		<button class="operator" onclick="performOperation('%')">%</button>
+		<button class="operator" onclick="performOperation('*')">x</button>
+		<button class="operator" onclick="performOperation('/')">/</button>
+		<button class="scientific-function" onclick="performScientificFunction('sqrt')">√</button>
+		<button class="scientific-function" onclick="performScientificFunction('sin')">sin</button>
+		<button class="scientific-function" onclick="performScientificFunction('tan')">tan</button>
+		<button class="scientific-function" onclick="performScientificFunction('cos')">cos</button>
+		<button class="operator" onclick="performOperation('^')">^</button>
+		<button class="scientific-function" onclick="performScientificFunction('log')">log</button>
+		<button class="clear-button" onclick="clearDisplay()">AC</button>
+        <!-- Add more operator buttons -->
+        <button class="equals" onclick="calculate()">=</button>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>

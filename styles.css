@@ -1,0 +1,41 @@
+.calculator {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.display {
+    background-color: #f0f0f0;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.number {
+    background-color: #d0d0d0;
+}
+.operator {
+    background-color: #f0f0f0;
+    color: #666;
+    font-weight: bold;
+}
+
+.equals {
+    background-color: #80c080;
+    color: white;
+}
+/* Adjust width and layout as needed */
+.scientific-function {
+    background-color: #f0f0f0;
+    color: #666;
+    font-weight: bold;
+    /* Add more styles as necessary */
+}
